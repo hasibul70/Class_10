@@ -1,0 +1,322 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+ font-family: 'Poppins', sans-serif;
+}
+
+h1,h2,h3,h4,h5{
+	font-family: 'Poppins', sans-serif;
+}
+a, a:hover{
+	font-family: 'Roboto', sans-serif;
+	text-decoration: none;
+}
+
+ul{
+	margin: 0;
+	padding: 0;
+}
+
+li{
+	list-style:none ;
+}
+
+/****************************
+ header section css start
+ ****************************/
+
+
+.header-section{
+	background: #F0FFF0 !important;
+	padding: 15px;
+}
+
+.header-section .nav-link{
+	padding-left:35px !important ;
+}
+
+.header-section .btn-success{
+	font-family: 'Roboto', sans-serif;
+	margin-left:35px !important ;
+	padding: 8px 30px;
+	background: #21B573;
+	border-radius: 40px !important;
+	border-color:#21B573 ;
+	transition: 0.5s;
+}
+
+.header-section .btn-success:hover{
+	font-family: 'Roboto', sans-serif;
+	background: #56548c;
+	border-color: #56548c ;
+}
+
+/****************************
+ second section css start
+ ****************************/
+
+.second-section{
+	width: 100%;
+	background: #F0FFF0;
+}
+
+.second-section .content {
+	margin-top: 30px; 
+}
+
+.second-section .content h6{
+	font-family: 'Poppins', sans-serif;
+	font-size: 16px;
+	color: #FD511A;
+	font-weight: 400;
+ }
+
+.second-section .content h1{
+	font-size: 40px;
+  color: black;
+  font-weight: 700;
+  padding-right: 290px;
+  line-height: 50px;
+}
+
+.second-section .content h1 span{
+  color: #21B573;
+}
+
+.second-section .content p{
+	font-family: 'Poppins', sans-serif;
+	font-size: 16px;
+	color: black;
+	font-weight: 600;
+	text-align: left;
+	margin-right: 219px;
+	line-height: 30px;
+}
+
+.second-section .content .btn-success{
+		font-family: 'Roboto', sans-serif;
+	padding: 8px 30px;
+	background: #21B573;
+	border-radius: 100px !important;
+	border-color:#21B573 ;
+	transition: 0.5s;
+}
+
+.second-section .content .btn-success:hover{
+	font-family: 'Roboto', sans-serif;
+	background: #56548c;
+	border-color: #56548c ;
+}
+
+.second-section .img-part img{
+}
+
+/****************************
+ feature section css start
+ ****************************/
+
+.feature-section{
+	width: 100%;
+	padding: 80px 0px;
+	background: #F8FFFB;
+}
+
+.feature-section .content{
+	background: #F8FFFB;
+	text-align: center;
+	padding: 50px 0px;
+
+}
+
+.feature-section .content:hover{
+	box-shadow: 0px 20px 40px 0px rgba(0, 0, 0, 0.10);
+	border-radius: 0.5s;
+}
+
+.feature-section .content img{
+	width: 66px;
+	margin-bottom: 15px;
+}
+
+.feature-section .content h4{
+	font-size: 24px;
+	margin: 5px;
+	font-weight: 500;
+}
+
+.feature-section .content p{
+	font-size: 16px;
+	color: #585859;
+
+}
+
+/****************************
+ online section css start
+ ****************************/
+
+.Online-section{
+	width: 100%;
+}
+
+.Online-section .inner-part{
+	text-align: center;
+}
+
+.Online-section .inner-part h2{
+	font-family: 'Poppins', sans-serif;
+	font-size: 36px;
+	font-weight: 700;
+	color: #413960;
+	padding: 60px;
+}
+
+/****************************
+ card section css start
+ ****************************/
+
+.card{
+	width: 100;
+	border: none;
+}
+
+.card .card-part{
+	background: #fff;
+	box-shadow: 0px 20px 40px 0px rgba(0, 0, 0, 0.10);
+	border-radius: 8px;
+	padding: 20px 20px;
+}
+
+.card .card-part img{
+	
+}
+
+.card .card-part h4{
+	font-family: 'Poppins', sans-serif;
+	color: #413960;
+	font-size: 24px;
+	font-weight: 500;
+	margin-top: 20px;
+
+}
+
+.card .card-part p{
+	font-family: 'Poppins', sans-serif;
+	color: #585859;
+	font-weight: 400;
+	font-size: 16px;
+}
+
+.card .btn-success{
+	font-family: 'Roboto', sans-serif;
+	padding: 8px 30px;
+	border-radius: 40px;
+	border: none;
+	background: #21B573;
+	margin-bottom: 20px;
+
+}
+
+.card .btn-success:hover{
+	box-shadow: 0px 20px 40px 0px rgba(0, 0, 0, 0.10);
+	border-radius: 0.5s;
+}
+
+/****************************
+ img section css start
+ ****************************/
+
+.f-img{
+	width: 30px;
+}
+
+.f-img span{
+	margin-top: 30px;
+}
+
+/****************************
+ Testimonial section css start
+ ****************************/
+
+.Testimonial-section{
+	width: 100%;
+}
+
+.Testimonial-section .content{
+	text-align: center;
+}
+
+.Testimonial-section .content h2{
+	font-family: 'Poppins', sans-serif;
+	font-size: 36px;
+	font-weight: 700;
+	color: black;
+	padding: 60px;
+}
+
+.Testimonial-section  .man-part{
+	margin-top: 10px;
+}
+
+.Testimonial-section  .man-part img{
+	width: 120px;
+	margin-left: 250px;
+
+}
+
+.Testimonial-section .p-part{
+	margin-top: 30px;
+
+}
+
+.Testimonial-section .p-part p{
+	color: #000;
+	padding-left: 10px;
+	margin-right: 193px;
+	font-size: 16px;
+	font-weight: 400;
+}
+
+
+/****************************
+ footer section css start
+ ****************************/
+
+.footer-section{
+	 background: #282531;
+	 margin-top: 90px;
+	 padding: 50px;
+}
+
+.footer-section .col-lg-5 p{
+	font-family: 'Poppins', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	color: #FFFFFF;
+}
+
+.footer-section h5{
+	color: white;
+	font-size: 18px;
+	font-weight: 700;
+}
+
+.footer-section ul{
+  font-size: 16px;
+  font-weight: 600;
+  color: white;
+}
+
+.footer-section ul li{
+	
+}
+
+.footer-section .pr{
+	text-align: center;
+	color: #CDCDCD;
+	font-size: 16px;
+	font-weight: 400;
+	margin-top: 70px;
+}
+
